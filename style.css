@@ -1,0 +1,18 @@
+li{
+    list-style: none;
+    width: 100%;
+}
+
+.todo{
+    display: flex;
+    width: 100%;
+    background: #e3e3e3;
+    padding: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    align-items: center;
+}
+
+.todo button{
+    margin: 0 2px;
+}
