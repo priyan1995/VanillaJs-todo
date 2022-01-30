@@ -16,3 +16,8 @@ li{
 .todo button{
     margin: 0 2px;
 }
+
+.todo-list{
+    padding: 0;
+}
+
