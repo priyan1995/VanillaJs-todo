@@ -1,9 +1,9 @@
-li{
+li {
     list-style: none;
     width: 100%;
 }
 
-.todo{
+.todo {
     display: flex;
     width: 100%;
     background: #e3e3e3;
@@ -11,13 +11,23 @@ li{
     margin-bottom: 5px;
     border-radius: 5px;
     align-items: center;
+    transition: all 1s ease;
 }
 
-.todo button{
+.todo button {
     margin: 0 2px;
 }
 
-.todo-list{
+.todo-list {
     padding: 0;
 }
 
+.completed {
+    text-decoration: line-through;
+    filter: opacity(0.7);
+}
+
+.fall-down {
+    transform: translateY(4px) rotateZ(1deg);
+    filter: opacity(0);
+}
