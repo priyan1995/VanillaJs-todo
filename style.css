@@ -31,3 +31,7 @@ li {
     transform: translateY(4px) rotateZ(1deg);
     filter: opacity(0);
 }
+
+.flex-show {
+    display: flex;
+}
